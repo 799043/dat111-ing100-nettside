@@ -114,17 +114,6 @@ nav {
     }
 
 }
-.DD{
-    margin:auto;
-    text-align: center;
-    width: 50%;
-    font-size: 1rem;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: italic;
-    padding: 20px;
-}
 .ham-menu{
     height: 50px;
     width: 50px;
