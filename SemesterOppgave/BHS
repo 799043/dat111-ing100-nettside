@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+</style>
+</head>
+<body>
+
+<h2> Brukerhistorie </h2>
+
+<table style="width:90%">
+  <tr>
+    <th>BRH</th>
+    <th>Person</th>
+    <th>Som en…</th>
+    <th>…ønsker jeg å…</th>
+    <th>…slik at jeg…</th>
+  </tr>
+  
+    <tr>
+    <td> BRH-1 </td> 
+    <td> Innbygger </td> 
+    <td> Innbygger i Bergen </td> 
+    <td> kunne skaffe meg informasjon om HVLtopia prosjektet og dets status. </td> 
+    <td> er oppdatert på hva dette prosjektet dreier seg om, og dets status. </td>
+  </tr> 
+  
+  <tr>
+    <td> BRH-2 </td> 
+    <td> Innbygger </td> 
+    <td> Innbygger i Bergen </td> 
+    <td> ha en beskrivelse av HVLtopia prosjektet sin visjon, hensikt, mål og bakgrunn.</td>
+    <td> får en forståelse av hvorfor dette prosjektet er initiert. </td>
+  </tr> 
+  
+  <tr>
+    <td> BRH-3 </td> 
+    <td> Innbygger </td> 
+    <td> Innbygger i Bergen </td> 
+    <td> se en presentasjon av løsninger og resultater fra HVLtopia prosjektet. </td> 
+    <td> får en forståelse og hvilken påvirkning disse har på miljø og lokalsamfunn.</td>
+  </tr> 
+  
+  <tr>
+    <td> BRH-4 </td> 
+    <td> Innbygger </td> 
+    <td> Innbygger i Bergen </td> 
+    <td> se en beskrivelse av bærekraft og samfunnsansvar som adresseres i HVLtopia prosjektet. </td> 
+    <td> får en enda bedre forståelse av hvordan prosjektet adresserer disse områdene. </td>
+  </tr> 
+  
+  <tr>
+    <td> BRH-5 </td> 
+    <td> Innbygger </td> 
+    <td> Innbygger i Bergen </td> 
+    <td> finne kontaktinformasjon for HVLtopia prosjektet. </td> 
+    <td> vet hvem jeg skal kontakte, og hvordan jeg skal gå frem for å evt. inngå et samarbeid med prosjektet </td>
+  </tr> 
+  
+  <tr>
+    <td> BRH-6 </td> 
+    <td> Innbygger </td> 
+    <td> Innbygger i Bergen </td> 
+    <td> finne oversikt over innsamlet data. </td> 
+    <td> kan følge med på temperatur-, luftkvalitet- og støy endringer i byen. </td>
+  </tr> 
+  
+  <tr>
+    <td> BRH-1 </td> 
+    <td> Innbygger </td> 
+    <td> Innbygger i Bergen </td> 
+    <td> kart med oversikt over sensorernes plasseringer. </td> 
+    <td> kan vite hvor sensorene er plassert og data er innhentet for å sammenligne de forskjellige byområdene. </td>
+  </tr> 
+</table>
+
+</body>
+</html>
