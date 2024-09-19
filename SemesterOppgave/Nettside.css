@@ -36,6 +36,29 @@ nav{
     font-weight: 300;
     font-style: italic;
     padding-bottom: 50px;
+
+}
+.AA{
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    padding: 10px;
+
+}
+.BB{
+    margin:auto;
+    text-align: center;
+    width: 60%;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    padding: 1%;
+
 }
 .ham-menu{
     height: 50px;
