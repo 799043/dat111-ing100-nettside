@@ -1,90 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="no">
 <head>
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-
-tr:nth-child(even) {
-  background-color: rgba(150, 212, 212, 0.4);
-}
-
-th:nth-child(even),td:nth-child(even) {
-  background-color: rgba(150, 212, 212, 0.4);
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BRH.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Brukerhistorie</title>
 </head>
+
 <body>
-
-<h2> Brukerhistorie </h2>
-
-<table style="width:90%">
-  <tr>
-    <th>BRH</th>
-    <th>Person</th>
-    <th>Som en…</th>
-    <th>…ønsker jeg å…</th>
-    <th>…slik at jeg…</th>
-  </tr>
-  
-    <tr>
-    <td> BRH-1 </td> 
-    <td> Innbygger </td> 
-    <td> Innbygger i Bergen </td> 
-    <td> kunne skaffe meg informasjon om HVLtopia prosjektet og dets status. </td> 
-    <td> er oppdatert på hva dette prosjektet dreier seg om, og dets status. </td>
-  </tr> 
-  
-  <tr>
-    <td> BRH-2 </td> 
-    <td> Innbygger </td> 
-    <td> Innbygger i Bergen </td> 
-    <td> ha en beskrivelse av HVLtopia prosjektet sin visjon, hensikt, mål og bakgrunn.</td>
-    <td> får en forståelse av hvorfor dette prosjektet er initiert. </td>
-  </tr> 
-  
-  <tr>
-    <td> BRH-3 </td> 
-    <td> Innbygger </td> 
-    <td> Innbygger i Bergen </td> 
-    <td> se en presentasjon av løsninger og resultater fra HVLtopia prosjektet. </td> 
-    <td> får en forståelse og hvilken påvirkning disse har på miljø og lokalsamfunn.</td>
-  </tr> 
-  
-  <tr>
-    <td> BRH-4 </td> 
-    <td> Innbygger </td> 
-    <td> Innbygger i Bergen </td> 
-    <td> se en beskrivelse av bærekraft og samfunnsansvar som adresseres i HVLtopia prosjektet. </td> 
-    <td> får en enda bedre forståelse av hvordan prosjektet adresserer disse områdene. </td>
-  </tr> 
-  
-  <tr>
-    <td> BRH-5 </td> 
-    <td> Innbygger </td> 
-    <td> Innbygger i Bergen </td> 
-    <td> finne kontaktinformasjon for HVLtopia prosjektet. </td> 
-    <td> vet hvem jeg skal kontakte, og hvordan jeg skal gå frem for å evt. inngå et samarbeid med prosjektet </td>
-  </tr> 
-  
-  <tr>
-    <td> BRH-6 </td> 
-    <td> Innbygger </td> 
-    <td> Innbygger i Bergen </td> 
-    <td> finne oversikt over innsamlet data. </td> 
-    <td> kan følge med på temperatur-, luftkvalitet- og støy endringer i byen. </td>
-  </tr> 
-  
-  <tr>
-    <td> BRH-1 </td> 
-    <td> Innbygger </td> 
-    <td> Innbygger i Bergen </td> 
-    <td> kart med oversikt over sensorernes plasseringer. </td> 
-    <td> kan vite hvor sensorene er plassert og data er innhentet for å sammenligne de forskjellige byområdene. </td>
-  </tr> 
-</table>
-
+    <div class="off-screen-menu">
+        <ul>
+            <li class="mBarOm"><a href="Om_prosjekt.htm" style="color: white; text-decoration: none;">Om prosjektet</a></li>
+            <li class="mBarPro"><a href="Presentasjon.htm" style="color: white; text-decoration: none;">Resultater, løsninger og impact</a></li>
+            <li class="mBarBS"><a href="B&S.htm" style="color:white; text-decoration: none;">Bærekraft og Samfunnsansvar</a></li>
+            <li class="mBarBRH"><a href="BRH.htm" style="color: white; text-decoration: none;">Brukerhistorie</a></li>
+            <li class="mBarHj"><a href="hjelp.htm" style="color: white; text-decoration: none;">Kontaktinformasjon</a></li>
+        </ul>
+    </div>
+    <nav>
+        <h1>HVL-Topia</h1>
+        <div class="HomeB">
+            <a href="Nettside.htm">
+                <img class="B" src="icons8-home-32.png" alt="Clickable Image">
+            </a>
+        </div>
+        <div class="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <div class="Pres">
+        <h1> Brukerhistorie </h1>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <td>BRH</td>
+          <td>Person</td>
+          <td>Som en…</td>
+                <td> …ønsker jeg å… </td>
+                <td>…slik at jeg…</td>
+        </tr>
+      </thead>
+      <tbody>
+            <tr>
+            <td> BRH-1 </td> 
+            <td> Innbygger </td> 
+            <td> Innbygger i Bergen </td> 
+            <td> kunne skaffe meg informasjon om HVLtopia prosjektet og dets status. </td> 
+            <td> er oppdatert på hva dette prosjektet dreier seg om, og dets status. </td>
+          </tr> 
+          
+          <tr>
+            <td> BRH-2 </td> 
+            <td> Innbygger </td> 
+            <td> Innbygger i Bergen </td> 
+            <td> ha en beskrivelse av HVLtopia prosjektet sin visjon, hensikt, mål og bakgrunn.</td>
+            <td> får en forståelse av hvorfor dette prosjektet er initiert. </td>
+          </tr> 
+          
+          <tr>
+            <td> BRH-3 </td> 
+            <td> Innbygger </td> 
+            <td> Innbygger i Bergen </td> 
+            <td> se en presentasjon av løsninger og resultater fra HVLtopia prosjektet. </td> 
+            <td> får en forståelse og hvilken påvirkning disse har på miljø og lokalsamfunn.</td>
+          </tr> 
+          
+          <tr>
+            <td> BRH-4 </td> 
+            <td> Innbygger </td> 
+            <td> Innbygger i Bergen </td> 
+            <td> se en beskrivelse av bærekraft og samfunnsansvar som adresseres i HVLtopia prosjektet. </td> 
+            <td> får en enda bedre forståelse av hvordan prosjektet adresserer disse områdene. </td>
+          </tr> 
+          
+          <tr>
+            <td> BRH-5 </td> 
+            <td> Innbygger </td> 
+            <td> Innbygger i Bergen </td> 
+            <td> finne kontaktinformasjon for HVLtopia prosjektet. </td> 
+            <td> vet hvem jeg skal kontakte, og hvordan jeg skal gå frem for å evt. inngå et samarbeid med prosjektet </td>
+          </tr> 
+          
+          <tr>
+            <td> BRH-6 </td> 
+            <td> Innbygger </td> 
+            <td> Innbygger i Bergen </td> 
+            <td> finne oversikt over innsamlet data. </td> 
+            <td> kan følge med på temperatur-, luftkvalitet- og støy endringer i byen. </td>
+          </tr> 
+          
+          <tr>
+            <td> BRH-1 </td> 
+            <td> Innbygger </td> 
+            <td> Innbygger i Bergen </td> 
+            <td> kart med oversikt over sensorernes plasseringer. </td> 
+            <td> kan vite hvor sensorene er plassert og data er innhentet for å sammenligne de forskjellige byområdene. </td>
+          </tr> 
+      </tbody>
+    </table>
+    <script src="Nettside.js"></script>
+    <div class="C">
+        <h2>
+            Trenger du hjelp? Vi er her å hjelper deg så fort som mulig!
+        </h2>
+        <p>Send gjerne mail til denne addressen <b> ...</b> om det skal være spørsmål!</p>
+        <a href="#">
+        <img src="icons8-arrow-up-50.png" alt="Clickable Image">
+        </a>
+    </div>
+        
 </body>
 </html>
