@@ -80,12 +80,13 @@ nav {
 .AA{ 
     margin:auto;
     text-align: center;
-    width: 50%;
+    width: 60%;
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: italic;
+    padding: 1%;
     
 }
 .BB{
@@ -100,8 +101,8 @@ nav {
 }
 .CC{
     border-style:inset;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     border-radius: 5%;
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
