@@ -38,7 +38,32 @@ nav{
     padding-bottom: 50px;
 
 }
-.AA{
+.Info{
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+
+}
+.AA{ 
+    background-color: #ededed;
+    border-style:inset;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5%;
+    margin:auto;
+    text-align: center;
+    width: 50%;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    
+}
+.BB{
     text-align: center;
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
@@ -48,18 +73,24 @@ nav{
     padding: 10px;
 
 }
-.BB{
-    margin:auto;
+.CC{
+    background-color: #ededed;
     text-align: center;
-    width: 60%;
+    border-style:inset;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5%;
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: italic;
-    padding: 1%;
-
+    li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    margin-bottom: 3rem;
 }
+
 .ham-menu{
     height: 50px;
     width: 50px;

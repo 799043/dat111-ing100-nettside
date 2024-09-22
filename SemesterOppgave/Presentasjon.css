@@ -129,3 +129,55 @@ nav {
     font-size: 2rem;
 
 }
+.Info{
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+
+}
+.AA{ 
+    
+    border-style:inset;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5%;
+    margin:auto;
+    text-align: center;
+    width: 50%;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    
+}
+.BB{
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    padding: 10px;
+
+}
+.CC{
+    
+    text-align: center;
+    border-style:inset;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5%;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    margin-bottom: 3rem;
+}

@@ -66,7 +66,6 @@ nav {
     background-color: #1e1e1ed8;
     color: white;
     padding: 1.2rem;
-    margin-top: 100%;
 }
 .ham-menu{
     height: 50px;
@@ -102,6 +101,10 @@ nav {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
 }
+.mBarHo{
+    margin: 30px;
+    font-size: 2rem;
+}
 .mBarPro{
     color: white;
     margin: 30px;
@@ -119,14 +122,66 @@ nav {
     margin: 30px;
     font-size: 2rem;    
 }
-.mBarBRH{
-    color: white;
-    margin: 30px;
-    font-size: 2rem;
-}
 .mBarBS{
     color: white;
     margin: 30px;
     font-size: 2rem;
 
+}
+.mBarBRH{
+    color: white;
+    margin: 30px;
+    font-size: 2rem;
+}
+.Info{
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+
+}
+.AA{ 
+    
+    border-style:inset;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5%;
+    margin:auto;
+    text-align: center;
+    width: 50%;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    
+}
+.BB{
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    padding: 10px;
+
+}
+.CC{
+    
+    text-align: center;
+    border-style:inset;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5%;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    margin-bottom: 3rem;
 }
