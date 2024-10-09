@@ -10,6 +10,45 @@
     <title>Hjelp</title>
 </head>
 <body>
+    <style>
+        body {
+            display: felx;
+            justify-content: center;
+        }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            margin: 20px 0 0 20px;
+            width: auto;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            padding-bottom: 2rem;
+            padding-top: 1rem;
+        }
+        .container a {
+            display: block;
+        }
+        .container a img {
+            width: 170px;
+            height: 250px;
+            max-height: 500px;
+            object-fit: cover;
+            transition: transform .6s ease-in-out;
+            border: 2px solid rgba(255, 255, 255, 0);
+            border-radius: 25px;
+        }
+        .container a img:hover {
+            transform: scale(1.2);
+        }
+    </style>
     <div class="off-screen-menu">
         <ul>
             <li class="mBarOm"><a href="Om_prosjekt.htm" style="color: white; text-decoration: none;">Om prosjektet</a></li>
@@ -17,6 +56,7 @@
             <li class="mBarBS"><a href="B&S.htm" style="color:white; text-decoration: none;">Bærekraft og Samfunnsansvar</a></li>
             <li class="mBarBRH"><a href="BRH.htm" style="color: white; text-decoration: none;">Brukerhistorie</a></li>
             <li class="mBarHj"><a href="hjelp.htm" style="color: white; text-decoration: none;">Kontaktinformasjon</a></li>
+            <li class="mBarLi"><a href="login.htm" style="color: white; text-decoration: none;">Logg inn</a></li>
         </ul>
     </div>
     <nav>
@@ -36,12 +76,26 @@
     <div class="Info0">
         <h1>Kontaktinformasjon</h1>
     </div>
-    <div><a href="Brede.htm">Brede</a></div>
-    <div><a href="Felix.htm">Felix</a></div>
-    <div><a href="Veronika.htm">Veronika</a></div>
-    <div><a href="Leah.htm">Leah</a></div>
-    <div><a href="Thomas.htm">Thomas</a></div>
-    <div><a href="Naghm.htm">Naghm</a></div>
+    <div class="container">
+        <a href="Leah.htm">
+            <img src="HVL-Topiabilde_Leah.png.jpg" alt ="Clickable Image">
+        </a>
+        <a href="Veronika.htm">
+            <img src="HVL-Topiabilde_Veronika.png.jpg" alt="Clickable Image">
+        </a>
+        <a href="Naghm.htm">
+            <img src="HVL-Topiabilde_Naghm.png.jpg" alt="Clickable Image">
+        </a>
+        <a href="Brede.htm">
+            <img src="HVL-Topiabilde_Brede.png.jpg" alt="Clickable Image">
+        </a>
+        <a href="Thomas.htm">
+            <img src="HVL-Topiabilde_Thomas.jpg" alt="Clickable Image">
+        </a>
+        <a href="Felix.htm">
+            <img src="HVL-Topiabilde_Felix.png" alt="Clickable Image">
+        </a>
+    </div>
     <script src="Nettside.js"></script>
     <div class="C">
         <h2>

@@ -1,0 +1,196 @@
+nav{
+    padding: 1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #01A7C2;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 50px;
+}
+.off-screen-menu {
+    background-color: #01A7C2;
+    height: 100vh;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    left: -450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: left .3s ease;
+    color: white;
+    
+}
+.off-screen-menu.active {
+    left: 0;
+}
+
+body, h1, h2, p{
+    margin: 0;
+}
+
+.LI{
+    background-color:rgb(1, 39, 60);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-family: Geist Mono,monospace;
+    letter-spacing: 5px;
+    font-size: 2rem;
+
+}
+.Inlogging{
+    font-size: 1.5rem;
+    font-family: Geist Mono,monospace;
+    text-align: center;
+    padding: 2rem;
+    background-color: #01A7C2;
+    color: white;
+}
+.input-container{
+    padding-top:1rem;
+    padding-bottom: 2rem;
+    background-color: #01A7C2;
+    color: white;
+}
+.input-container :hover{
+    transition: all 0.7s ease;
+    background-color: #3ce5ff
+}
+input{
+    font-family: Geist Mono,monospace;
+    font-size: 1.75rem;
+    padding: 1rem 2rem;
+    padding-right: 4rem;
+    letter-spacing: 0.2ch;
+    border-radius: 6px;
+    color:var(--color-alpha);
+    border-color:var(--color-alpha);
+    border-style: solid;
+    background: var(--input-bg);
+    outline:none;
+    transition:border-color 0.2s, color 0.2s;
+}
+label{
+    position: absolute;
+    color:var(--color-alpha);
+    font-weight: 800;
+    bottom: calc(100% +0.5rem);
+    letter-spacing: 0.2ch;
+    transition: color 0.2s;
+}
+.HIP{
+    
+}
+.FP{
+    position: relative;
+    top: 15px;
+}
+.nk{
+    
+}
+.btn{
+    padding-top: 1rem;
+    border: none;
+    background-color: #01A7C2;
+    color:white;
+    
+}
+.btn :hover{
+    transition: all 0.7s ease;
+    background-color: #3ce5ff;
+}
+.hy{
+    text-decoration:none;
+    color: white;
+}
+.hy:hover{
+    transition: all 0.3s ease;
+    color:darkslateblue;
+}
+.C{
+    text-align: center;
+    background-color: #1e1e1ed8;
+    color: white;
+    padding: 1.2rem;
+}  
+.ham-menu{
+    height: 50px;
+    width: 50px;
+    left: 4rem  ;
+    position: fixed;
+    top: 30px;
+    cursor: pointer;
+    transition: top 0.3 ease;
+}
+.ham-menu span{
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+.ham-menu span:nth-child(1) {
+    top: 25%;
+}
+.ham-menu span:nth-child(3){
+    top: 75%;
+}
+.ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.ham-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+.ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+.mBarPro{
+    color: white;
+    margin: 30px;
+    font-size: 2rem;
+}
+
+.mBarHj{
+    color: white;
+    margin: 30px;
+    font-size: 2rem;
+}
+
+.mBarOm{
+    color: white;
+    margin: 30px;
+    font-size: 2rem;    
+}
+.mBarBRH{
+    color: white;
+    margin: 30px;
+    font-size: 2rem;
+}
+.mBarBRH{
+    color: white;
+    margin: 30px;
+    font-size: 2rem;
+}
+.mBarBS{
+    color: white;
+    margin: 30px;
+    font-size: 2rem;
+
+}

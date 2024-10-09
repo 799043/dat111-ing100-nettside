@@ -1,16 +1,11 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="login.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Nettside.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
-    
-    <title>Thomas</title>
+    <title>Document</title>
 </head>
-
 <body>
     <div class="off-screen-menu">
         <ul>
@@ -20,39 +15,43 @@
             <li class="mBarBRH"><a href="BRH.htm" style="color: white; text-decoration: none;">Brukerhistorie</a></li>
             <li class="mBarHj"><a href="hjelp.htm" style="color: white; text-decoration: none;">Kontaktinformasjon</a></li>
             <li class="mBarLi"><a href="login.htm" style="color: white; text-decoration: none;">Logg inn</a></li>
+            
         </ul>
     </div>
+    
     <nav>
         <h1 class="nav-title">HVL-Topia</h1>
-        <div class="People">
-            <a href="hjelp.htm">
-                <img class="D" src="People.png" alt="Clickable Image">
-            </a>
-        </div>
-        <div class="HomeB">
-            <a href="Nettside.htm">
-                <img class="B" src="icons8-home-32.png" alt="Clickable Image">
-            </a>
-        </div>
         <div class="ham-menu">
             <span></span>
             <span></span>
             <span></span>
         </div>
     </nav>
-
-    <div class="Info">
-        <h1>
-            Om Thomas
-        </h1>
-    </div>
-    <div class="AA">
-        <h2>
-            bla bla bla
+    <div>
+        <h2 class="LI">
+            Logg inn
         </h2>
     </div>
-    <div class="IMG">
-        <img src="HVL-Topiabilde_Thomas.jpg">
+    <div class = "Inlogging">
+        <p>Skriv inn passord i boksen</p>
+        <div class="input-container">
+            <input type="text" placeholder="Brukernavn" required>
+            <input class = "eyeball-input" type ="password" placeholder="Passord" required>
+            <i class="fa-eyeball"></i>
+        </div>
+        <div class="FP">
+            <a href="#" class="hy">Glemt passord</a>    
+        </div>
+        
+        <button type="submit" class="btn">Logg inn</button>
+        <div class="nk">
+            <p>Har ikke konto? <a href="#" class="hy">Trykk her!</a></p>
+        </div>
+    </div>
+    <div>
+        <p>
+            Som medlem får du ingenting nytt, dette er kun for design og innhold :D
+        </p>
     </div>
     <script src="Nettside.js"></script>
     <div class="C">
@@ -63,5 +62,5 @@
         <a href="#">
         <img src="icons8-arrow-up-50.png" alt="Clickable Image">
         </a>
-    </div>
 </body>
+</html>
