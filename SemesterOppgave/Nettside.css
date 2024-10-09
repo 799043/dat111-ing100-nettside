@@ -30,7 +30,13 @@ table tbody tr {
 table tbody tr:nth-child(odd) {
 	background-color: #ffffff;
 }
-
+.Tabell1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    text-decoration: underline;   
+}
 .off-screen-menu {
     background-color: #01A7C2;
     height: 100vh;
@@ -236,6 +242,11 @@ nav{
     margin: 30px;
     font-size: 2rem;
 
+}
+.mBarLi{
+    color: white;
+    margin: 30px;
+    font-size: 2rem;    
 }
 .C{
     text-align: center;
