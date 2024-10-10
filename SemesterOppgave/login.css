@@ -88,17 +88,11 @@ label{
     bottom: calc(100% +0.5rem);
     letter-spacing: 0.2ch;
     transition: color 0.2s;
-}
-.HIP{
-    
-}
+}    
 .FP{
     position: relative;
     top: 15px;
-}
-.nk{
-    
-}
+} 
 .btn{
     padding-top: 1rem;
     border: none;
@@ -193,4 +187,16 @@ label{
     margin: 30px;
     font-size: 2rem;
 
+}
+.mBarLi{
+    color: white;
+    margin: 30px;
+    font-size: 2rem;    
+}
+.Medlem{
+    background-color:rgb(1, 39, 60);
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
 }
