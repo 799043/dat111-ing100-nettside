@@ -30,7 +30,7 @@
             align-items: center;
             gap: 15px;
             flex-wrap: wrap;
-            padding-bottom: 2rem;
+            padding-bottom: 7rem;
             padding-top: 1rem;
         }
         .container a {
@@ -47,6 +47,29 @@
         }
         .container a img:hover {
             transform: scale(1.2);
+        }
+
+        .NAVN {
+            font-size: 1.4rem;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: italic;
+            margin-bottom: 30px;
+            text-align: center;
+            text-decoration: underline;
+            color: #000;
+            border: solid 3px;
+            padding: 6px;
+            border-radius: 10px;
+               
+        }
+        .container a:hover .NAVN{
+            background-color: #09d0ef;
+            transition: transform 0.5s ease-in-out;
+        }
+        .container a::after .NAVN{
+            
         }
     </style>
     <div class="off-screen-menu">
@@ -76,47 +99,29 @@
     <div class="Info0">
         <h1>Kontaktinformasjon</h1>
     </div>
-    <div>
-        <table>
-            <tr class="Tabell1">
-                <th style="font-size: 1.4rem;">
-                    Leah
-                </th>
-                <th style="font-size: 1.4rem;">
-                    Veronika
-                </th>
-                <th style="font-size: 1.4rem;">
-                    Naghm
-                </th>
-                <th style="font-size: 1.4rem;">
-                    Brede
-                </th>
-                <th style="font-size: 1.4rem;">
-                    Thomas
-                </th>
-                <th style="font-size: 1.4rem;">
-                    Felix
-                </th>
-            </tr>
-        </table>
-    </div>
     <div class="container">
         <a href="Leah.htm">
+            <p class="NAVN">Leah</p>
             <img src="HVL-Topiabilde_Leah.png.jpg" alt ="Clickable Image">
         </a>
         <a href="Veronika.htm">
+            <p class="NAVN">Veronika</p>
             <img src="HVL-Topiabilde_Veronika.png.jpg" alt="Clickable Image">
         </a>
         <a href="Naghm.htm">
+            <p class="NAVN">Naghm</p>
             <img src="HVL-Topiabilde_Naghm.png.jpg" alt="Clickable Image">
         </a>
         <a href="Brede.htm">
+            <p class="NAVN">Brede</p>
             <img src="HVL-Topiabilde_Brede.png.jpg" alt="Clickable Image">
         </a>
         <a href="Thomas.htm">
+            <p class="NAVN">Thomas</p>
             <img src="HVL-Topiabilde_Thomas.jpg" alt="Clickable Image">
         </a>
         <a href="Felix.htm">
+            <p class="NAVN">Felix</p>
             <img src="HVL-Topiabilde_Felix.png" alt="Clickable Image">
         </a>
     </div>
