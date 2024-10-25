@@ -8,11 +8,12 @@ import random
 from random import randint
 
 
-def GenereateRandomYearDataList(intensity: float, seed: int = 0) -> list[int]:
+
+def GenereateRandomYearDataList(intencity: float, seed: int = 0) -> list[int]:
     if seed != 0:
         random.seed(seed)
     centervals = [200, 150, 100, 75, 75, 75, 50, 75, 100, 150, 200, 250, 300]
-    centervals = [x * intensity for x in centervals]
+    centervals = [x * intencity for x in centervals]
     nox = centervals[0]
     inc = True
     noxList = []
@@ -27,11 +28,10 @@ def GenereateRandomYearDataList(intensity: float, seed: int = 0) -> list[int]:
     return noxList
 
 
-krnon_nox_year = GenereateRandomYearDataList(intensity=1.0, seed = 2)
-nord_nox_year = GenereateRandomYearDataList(intensity=.3, seed = 1)
-additional_nox_year = GenereateRandomYearDataList(intensity=0.5, seed=3) #Ny
+kron_nox_year = GenereateRandomYearDataList(intencity=1.0, seed = 2)
+nord_nox_year = GenereateRandomYearDataList(intencity=.3, seed = 1)
+additional_nox_year = GenereateRandomYearDataList(intencity=0.5, seed=3) #Ny
 
-#create figure and 3 axis
 fig, axNox = plt.subplots(figsize=(13, 5))
 plt.subplots_adjust(bottom=0.25)
 
@@ -71,7 +71,7 @@ def get_interval():
 def plot_graph():
     days_interval = get_interval()
     nord_nox = nord_nox_year[days_interval[0]:days_interval[1]]
-    kron_nox = krnon_nox_year[days_interval[0]:days_interval[1]]
+    kron_nox = kron_nox_year[days_interval[0]:days_interval[1]]
     additional_nox = additional_nox_year[days_interval[0]:days_interval[1]]
     days = len(nord_nox)
     list_days = np.linspace(1, days, days)
