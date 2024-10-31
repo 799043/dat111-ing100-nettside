@@ -7,3 +7,7 @@ Første utgave skal inneholde:
 Andre utgave inneholder:
 - Presentasjon om prosjektet
 - Bærekraft og samfunnsansvar
+
+Tredje utgave inneholder:
+- Python kode
+- Oversikt over sensor
