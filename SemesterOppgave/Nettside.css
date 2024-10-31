@@ -166,6 +166,14 @@ nav{
     margin-bottom: 3rem;
 }
 
+.imgas img{
+    width: 1200px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .ham-menu{
     height: 50px;
     width: 50px;
